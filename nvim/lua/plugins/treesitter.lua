@@ -17,11 +17,14 @@ return {
 		}
 		--
 		require("nvim-treesitter.configs").setup({
-		ensure_installed = {"c", "lua", "vim", "vimdoc", "query", "python", "bash", "verilog",},
+		ensure_installed = {"c", "lua", "vim", "vimdoc", "query", "python", "bash", "verilog", "vhdl",},
 		auto_install = false,
 		highlight = { enable = true, },
 		indent = true,
 		})
+		-- Treesitter Specific Maps
+		vim.keymap.set('n', '<leader>it', ':InspectTree<CR>')
 	end
 	},
 }
+
