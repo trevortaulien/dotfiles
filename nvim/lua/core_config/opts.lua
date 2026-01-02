@@ -14,3 +14,7 @@ vim.opt.list = true
 vim.opt.listchars = { tab = '» ', lead = '·', trail = '·', nbsp = '␣'}
 
 vim.opt.hlsearch = true
+
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.expandtab = true
