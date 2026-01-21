@@ -1,0 +1,22 @@
+### Aliases ###
+alias nv='nvim'
+alias dot='cd ~/Documents/repos/dotfiles/'
+alias repos='cd ~/Documents/repos/'
+
+alias l='ls'
+alias la='ls -a'
+alias ll='ls -l'
+alias lla='ls -al'
+alias lh='ls -lh'
+
+alias gsh='git rev-parse --short HEAD'
+alias gfh='git rev-parse HEAD'
+alias gsu='git submodule update --init --recursive'
+alias gc='git clone --recurse-submodule'
+
+### Tools ###
+tools_path='~/tools'
+export PATH=$tools_path':'$PATH
+
+### Git Editor ###
+export GIT_EDITOR='~/tools/nvim'

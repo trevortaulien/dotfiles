@@ -1,0 +1,15 @@
+[user]
+    # Specify
+    # name = 
+    # email = 
+
+[status]
+    branch = true
+    showStash = true
+    showUntrackedFiles = all
+
+[submodule]
+    recurse = true
+
+[push]
+    recurseSubmodules = on-demand
