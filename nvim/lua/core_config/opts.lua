@@ -4,7 +4,7 @@ vim.opt.relativenumber = true
 vim.opt.wrap = true
 vim.opt.breakindent = true
 
-vim.opt.clipboard = 'unnamedplus'
+-- vim.opt.clipboard = 'unnamedplus'
 
 -- For searching
 vim.opt.ignorecase = true

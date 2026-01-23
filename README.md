@@ -3,7 +3,7 @@ The purpose of this repo is to document the configurations of various things tha
 
 ## Assumptions
 1. This repo is checked out to path: `~/Documents/repos/dotfiles/`
-2. The following binaries (or symlinks) exist at ~/tools/:
+2. The following binaries (or symlinks) exist at `~/tools/`:
     - nvim
     - fzf
 
@@ -23,6 +23,9 @@ cd; cd ./.config/; ln -s ~/Documents/repos/dotfiles/nvim nvim
 Launch neovim run `checkhealth` command and address anything
 that is being barked about.
 
+#### Clipboard
+If using Mint with Cinnamon install `xsel` and use xsel as
+the provider. `:h clipboard` explains in more detail.
 
 ### Git
 Uncomment and fill out the 'name' and 'email' fields.
