@@ -6,4 +6,3 @@ require("plugin_manager")
 
 -- This order is important
 require("core_config/cmds")
-

@@ -39,5 +39,12 @@ return {
             },
         })
         --------------------------------
+
+        ----- mini.icons stuff -----
+        require('mini.icons').setup({
+            style = 'ascii',
+            file = { ascii = 'U' },
+        })
+        ----------------------------
     end
 }
