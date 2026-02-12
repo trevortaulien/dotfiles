@@ -15,6 +15,8 @@ source ~/Documents/repos/dotfiles/system/bash_stuff
 ```
 
 ### Neovim
+This is written assuming neovim is installed at default location used when built from source per [this link](https://github.com/neovim/neovim/blob/master/BUILD.md#quick-start).
+
 Use the following command to create symlink:
 ```
 cd; cd ./.config/; ln -s ~/Documents/repos/dotfiles/nvim nvim
