@@ -16,10 +16,10 @@ return {
     lazy = false,
     build = ':TSUpdate',
     config = function()
-        require('nvim-treesitter').install({ "c", "cpp", "lua", "vim", "vimdoc", "query", "vhdl", "verilog", "bash", "python", "html", "toml" })
+        require('nvim-treesitter').install({ "c", "cpp", "lua", "vim", "vimdoc", "query", "vhdl", "verilog", "bash", "python", "html", "toml", "make" })
 
         vim.api.nvim_create_autocmd('FileType', {
-            pattern = { 'c', 'cpp', 'lua', 'vim', 'vimdoc', 'query', 'vhdl', 'systemverilog', 'verilog', 'bash', 'python', 'python', 'html', 'toml' },
+            pattern = { 'c', 'cpp', 'lua', 'vim', 'vimdoc', 'query', 'vhdl', 'systemverilog', 'verilog', 'bash', 'python', 'python', 'html', 'toml', 'make' },
             callback = function() 
             vim.treesitter.start()
             vim.bo.indentexpr = "v:lua.require'nvim-treesitter'.indentexpr()"
